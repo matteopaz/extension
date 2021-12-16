@@ -27,12 +27,8 @@ a.prerequisiteLink {
     color: rgb(152, 152, 152) !important;
 }
 
-img {
+div.graphic > img {
     filter: invert(100%) grayscale(40%);
-}
-
-.logo {
-    filter: none;
 }
 
 div.choiceLetterCircle {
