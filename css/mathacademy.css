@@ -1,0 +1,40 @@
+:root {
+    --darker-not-black: #23272A;
+    --lighter-not-black: #2C2F33;
+}
+
+body {
+    background: var(--darker-not-black) !important;
+}
+
+div.taskUnlocked, div.taskCompleted, div#topRibbon, div.sidebarFrame, #lessonSidebar, .step, div#sectionLinks {
+    background: var(--lighter-not-black) !important;
+}
+
+div.taskNameUnlocked, td.leaderboardUserName, .step p, td, li, .mjpage, span{
+    color: #dcddde !important;
+}
+
+div.stepHeader, div.explanationHeader, #topicName, div#prerequisitesHeader, span.taskTypeUnlocked, a.courseNameLink, div.sidebarHeader, span.taskTypeLocked, td#leaderboardTitle, span.tabSelected, span.taskPointsUnlocked, div.taskPrerequisitesHeader, a.stepAnchor {
+    color: #2498eb !important;
+}
+
+a.sectionLink {
+    color: rgb(92, 92, 92) !important;
+}
+
+a.prerequisiteLink {
+    color: rgb(152, 152, 152) !important;
+}
+
+img {
+    filter: invert(100%) grayscale(40%);
+}
+
+.logo {
+    filter: none;
+}
+
+div.choiceLetterCircle {
+    background: #3a3d41;
+}

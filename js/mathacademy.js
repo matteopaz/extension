@@ -1,0 +1,1 @@
+document.querySelector('.logo').src = chrome.runtime.getURL('./img/big_M.png');
