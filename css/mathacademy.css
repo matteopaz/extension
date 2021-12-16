@@ -15,7 +15,7 @@ div.taskNameUnlocked, td.leaderboardUserName, .step p, td, li, .mjpage, span{
     color: #dcddde !important;
 }
 
-div.stepHeader, div.explanationHeader, #topicName, div#prerequisitesHeader, span.taskTypeUnlocked, a.courseNameLink, div.sidebarHeader, span.taskTypeLocked, td#leaderboardTitle, span.tabSelected, span.taskPointsUnlocked, div.taskPrerequisitesHeader, a.stepAnchor {
+a#learnHeaderLink, div.stepHeader, div.explanationHeader, #topicName, div#prerequisitesHeader, span.taskTypeUnlocked, a.courseNameLink, div.sidebarHeader, span.taskTypeLocked, td#leaderboardTitle, span.tabSelected, span.taskPointsUnlocked, div.taskPrerequisitesHeader, a.stepAnchor {
     color: #2498eb !important;
 }
 
@@ -33,4 +33,12 @@ div.graphic > img {
 
 div.choiceLetterCircle {
     background: #3a3d41;
+}
+
+span.pointsGained, div.coursePointsAhead {
+    color: lightgreen !important;
+}
+
+td.leaderboardUserBelt > img, img#courseBelt {
+    filter: saturate(50%);
 }

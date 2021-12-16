@@ -35,5 +35,15 @@
                 "./js/topicpage.js"
             ]
         }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "img/*"
+            ],
+            "matches": [
+                "https://*.mathacademy.com/*"
+            ]
+        }
     ]
 }
