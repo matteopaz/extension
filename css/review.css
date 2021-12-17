@@ -1,0 +1,20 @@
+div#reviewFrame {
+    background: var(--darker-not-black) !important;
+}
+
+a.topicLink, .questionHeader {
+    color: var(--light-blue) !important;
+}
+
+td.choiceLetter > div.choiceLetterCircle {
+    background: #56585c;
+}
+
+td.choiceLetter > div.selectedChoice {
+    /* background: rgb(60, 60, 60); */
+    background: var(--lighter-not-black);
+}
+
+div#questionAnswerFrame {
+    background: var(--lighter-not-black);
+}
