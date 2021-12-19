@@ -2,9 +2,14 @@
     --darker-not-black: #23272A;
     --lighter-not-black: #2C2F33;
     --light-blue: #2498eb;
+    --extension-url: placeholder;
 }
 
-body, div#beltList {
+body, html {
+    height: 100%;
+}
+
+body, div#beltList, div#courseUnits {
     background: var(--darker-not-black) !important;
 }
 
@@ -50,4 +55,8 @@ div#beltList {
 
 div.question {
     margin-bottom: 10px;
+}
+
+div[onclick="showGraph();"] {
+
 }

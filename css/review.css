@@ -18,3 +18,38 @@ td.choiceLetter > div.selectedChoice {
 div#questionAnswerFrame {
     background: var(--lighter-not-black);
 }
+
+td.augmentation {
+    vertical-align: top;
+}
+
+div#prerequisiteFrame {
+    width: 300px;
+    background: var(--lighter-not-black);
+    border: 1px solid rgb(224, 224, 224);
+    margin-top: 15px;
+    font-size: 13px;
+    padding: 15px;
+    margin-right: 25px;
+}
+
+object#prerequisiteBrowser {
+    background: var(--lighter-not-black);
+    border: 1px solid rgb(224, 224, 224);
+    margin-top: 15px;
+    width: 500px;
+    overflow: hidden;
+    height: 500px;
+    scrollbar-color: inherit;
+    margin-left: 25px;
+
+}
+
+div.prerequisite {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+div#prerequisiteHeader {
+    font-weight: bold;
+}

@@ -16,15 +16,26 @@
     "content_scripts": [
         {
             "matches": [
-                "https://*.mathacademy.com/*"
-            ],
-            "css": [
-                "./css/mathacademy.css"
+                "https://*.mathacademy.com/learn/*",
+                "https://*.mathacademy.com/assignments/*"
             ],
             "run_at": "document_end",
             "js": [
-                "./js/mathacademy.js"
+                "./js/learn.js"
             ]
+        },
+        {
+            "matches": [
+                "https://*.mathacademy.com/*"
+            ],
+            "css": [
+                "./css/learn.css"
+            ],
+            "run_at": "document_end",
+            "js": [
+                "./js/global.js"
+            ],
+            "all_frames": true
         },
         {
             "matches": [
