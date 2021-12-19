@@ -28,6 +28,7 @@
                 "https://*.mathacademy.com/*"
             ],
             "css": [
+                "./theme.css",
                 "./css/global.css",
                 "./css/learn.css"
             ],
