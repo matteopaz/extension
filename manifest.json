@@ -13,8 +13,7 @@
     },
     "icons": {},
     "options_page": "",
-    "content_scripts": [
-        {
+    "content_scripts": [{
             "matches": [
                 "https://*.mathacademy.com/learn/*",
                 "https://*.mathacademy.com/assignments/*"
@@ -29,6 +28,7 @@
                 "https://*.mathacademy.com/*"
             ],
             "css": [
+                "./css/global.css",
                 "./css/learn.css"
             ],
             "run_at": "document_end",
@@ -59,14 +59,12 @@
             ]
         }
     ],
-    "web_accessible_resources": [
-        {
-            "resources": [
-                "img/*"
-            ],
-            "matches": [
-                "https://*.mathacademy.com/*"
-            ]
-        }
-    ]
+    "web_accessible_resources": [{
+        "resources": [
+            "img/*"
+        ],
+        "matches": [
+            "https://*.mathacademy.com/*"
+        ]
+    }]
 }
