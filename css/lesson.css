@@ -1,0 +1,16 @@
+div#lessonFrame {
+    background: var(--main-background-color) !important;
+}
+
+.step {
+    background: var(--secondary-background-color) !important;
+}
+
+.step p {
+    color: var(--main-text-color) !important;
+}
+
+div.question {
+    color: var(--main-text-color) !important;
+    background: var(--secondary-background-color) !important;
+}

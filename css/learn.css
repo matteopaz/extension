@@ -1,12 +1,6 @@
-body,
-html {
-    height: 100%;
-}
-
-body,
 div#beltList,
 div#courseUnits {
-    background: var(--darker-not-black) !important;
+    background: var(--main-background-color) !important;
 }
 
 div.reviewAnswerList,
@@ -15,21 +9,13 @@ div.taskCompleted,
 div#topRibbon,
 div.sidebarFrame,
 #lessonSidebar,
-.step,
 div#sectionLinks,
-div.taskExpanded,
-div.question {
-    background: var(--lighter-not-black) !important;
+div.taskExpanded {
+    background: var(--secondary-background-color) !important;
 }
 
 div.taskNameUnlocked,
-td.leaderboardUserName,
-.step p,
-td,
-li,
-.mjpage,
-span,
-div.question {
+td.leaderboardUserName {
     color: #dcddde !important;
 }
 
@@ -58,9 +44,7 @@ a.prerequisiteLink {
     color: rgb(152, 152, 152) !important;
 }
 
-div.graphic>img {
-    filter: invert(100%) grayscale(40%);
-}
+
 
 div.choiceLetterCircle {
     background: #3a3d41;
@@ -83,5 +67,3 @@ div#beltList {
 div.question {
     margin-bottom: 10px;
 }
-
-div[onclick="showGraph();"] {}
