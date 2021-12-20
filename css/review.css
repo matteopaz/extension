@@ -1,23 +1,24 @@
 div#reviewFrame {
-    background: var(--main-background-color) !important;
+    background: var(---background) !important;
 }
 
-a.topicLink, .questionHeader {
+a.topicLink,
+.questionHeader {
     color: var(--light-blue) !important;
 }
 
-td.choiceLetter > div.choiceLetterCircle {
+td.choiceLetter>div.choiceLetterCircle {
     background: #56585c;
 }
 
-td.choiceLetter > div.selectedChoice {
+td.choiceLetter>div.selectedChoice {
     /* background: rgb(60, 60, 60); */
-    background: var(--secondary-background-color);
+    background: var(--foreground);
 }
 
 .step,
 div#questionAnswerFrame {
-    background: var(--secondary-background-color);
+    background: var(--foreground);
 }
 
 td.augmentation {
@@ -26,7 +27,7 @@ td.augmentation {
 
 div#prerequisiteFrame {
     width: 300px;
-    background: var(--secondary-background-color);
+    background: var(--foreground);
     border: 1px solid rgb(224, 224, 224);
     margin-top: 15px;
     font-size: 13px;
@@ -35,7 +36,7 @@ div#prerequisiteFrame {
 }
 
 object#prerequisiteBrowser {
-    background: var(--secondary-background-color);
+    background: var(--foreground);
     border: 1px solid rgb(224, 224, 224);
     margin-top: 15px;
     width: 500px;
@@ -43,7 +44,6 @@ object#prerequisiteBrowser {
     height: 500px;
     scrollbar-color: inherit;
     margin-left: 25px;
-
 }
 
 div.prerequisite {

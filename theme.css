@@ -1,11 +1,11 @@
 :root {
-    --main-background-color: #23272A;
-    --secondary-background-color: #2C2F33;
+    ---background: #23272A;
+    --foreground: #2C2F33;
     --light-blue: #2498eb;
-    --main-text-color: #dcddde !important;
+    --text-color: #dcddde !important;
 }
 
-div.graphic > img {
+div.graphic>img {
     /* changes how graphs and images look */
     filter: invert(100%) grayscale(40%);
 }
@@ -14,9 +14,9 @@ td,
 li,
 .mjpage,
 span {
-    color: var(--main-text-color) !important;
+    color: var(--text-color) !important;
 }
 
 body {
-    background: var(--main-background-color) !important;
+    background: var(---background) !important;
 }

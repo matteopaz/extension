@@ -1,6 +1,6 @@
 div#beltList,
 div#courseUnits {
-    background: var(--main-background-color) !important;
+    background: var(---background) !important;
 }
 
 div.reviewAnswerList,
@@ -11,7 +11,7 @@ div.sidebarFrame,
 #lessonSidebar,
 div#sectionLinks,
 div.taskExpanded {
-    background: var(--secondary-background-color) !important;
+    background: var(--foreground) !important;
 }
 
 div.taskNameUnlocked,
@@ -43,8 +43,6 @@ a.sectionLink {
 a.prerequisiteLink {
     color: rgb(152, 152, 152) !important;
 }
-
-
 
 div.choiceLetterCircle {
     background: #3a3d41;
